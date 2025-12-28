@@ -654,6 +654,9 @@ margin-top: -80px;
 
 
 
+
+
+
 /* Media Query للشاشات الصغيرة (الجوال) */
 @media screen and (max-width: 768px) {
   /* شعار ZUMAK */
@@ -667,6 +670,8 @@ margin-top: -80px;
   }
 
   /* فقرة التعريف */
+
+
   .par {
     flex-direction: column;
     margin: 20px;
@@ -685,14 +690,14 @@ margin-top: -80px;
 
 .logo{
   display: none;
+  position: absolute;
 }
 
 #buttons button{
-  display: inline;
-
+margin-left: -30px;
 width: 80px;
 padding: 10px 0px;
-margin: 17px;
+margin: 10px;
 }
 
 
@@ -779,6 +784,13 @@ overflow-y: auto;
     height: auto; /* يسمح للنص والزر بالظهور بالكامل */
     
   }
+
+
+
+.project-desc{
+  margin-top: -20px;
+}
+
 
   /* خدمات */
 
