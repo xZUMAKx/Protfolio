@@ -693,14 +693,27 @@ margin-top: -80px;
   position: absolute;
 }
 
-#buttons button{
-margin-left: -30px;
-width: 80px;
-padding: 10px 0px;
-margin: 10px;
+#buttons {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 10px 0;
+
 }
 
-
+#buttons button{
+margin: 0;
+width: auto;
+padding: 8px 14px;
+font-size: 14px;
+display: inline-flex;
+}
 
   .pr2 {
     font-size: 15px;
